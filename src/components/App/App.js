@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div className="App">
         <h1>What Kind of Culture Mind are You?</h1>
+        <br/>
         <Question />
         <NavigationBar />
     </div>

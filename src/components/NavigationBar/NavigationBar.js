@@ -3,7 +3,7 @@ import { NavigationButton } from '../NavigationButton/NavigationButton';
 
 export const NavigationBar = () => {
     return (
-        <div>
+        <div className='NavigationBar'>
             <NavigationButton text={'< Prev'}/>
             <NavigationButton text={'Next >'}/>
         </div>

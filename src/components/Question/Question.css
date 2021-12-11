@@ -1,4 +1,8 @@
-.question {
+.Question {
+    margin: auto auto 20px;
+    width: 60%;
+    padding: 30px;
+    border-radius: 25px;
     background-color: white;
 }
 
