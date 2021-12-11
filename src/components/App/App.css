@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url('./phlebas.jpg');
 }
 
 .App-logo {
@@ -35,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color: white;
 }
