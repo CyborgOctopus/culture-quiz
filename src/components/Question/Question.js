@@ -4,7 +4,7 @@ export const Question = () => {
     return (
         <div className='Question' align='center'>
             <form>
-                <p>What is the best programming language?</p>
+                <p className='questionTitle'>What is the best programming language?</p>
                 <div className='radioLeft'>
                     <input type='radio' id='answerChoice1' name='answer' value='Python' />
                     <label for='answerChoice1'>Python</label><br/>

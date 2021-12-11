@@ -6,6 +6,10 @@
     background-color: white;
 }
 
+.questionTitle {
+    margin: 0;
+}
+
 .radioLeft {
     text-align: left;
 }
