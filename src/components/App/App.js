@@ -6,7 +6,7 @@ import {ProgressBar} from "../ProgressBar/ProgressBar";
 const App = () => {
   return (
     <div className='App'>
-        <h1 className='pageTitle'>What Kind of Culture Mind are You?</h1>
+        <h1 className='pageTitle'>What Kind of Culture Mind Are You?</h1>
         <div className='displayArea'>
             <ProgressBar />
             <Question />
