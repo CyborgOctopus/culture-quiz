@@ -1,0 +1,13 @@
+.ProgressBar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.rect {
+    height: 20px;
+    width: 500px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ccff 7%, white 7%);
+}
