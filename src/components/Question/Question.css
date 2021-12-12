@@ -1,15 +1,19 @@
 .Question {
-    margin: auto auto 20px;
+    margin: 0 auto 20px;
     width: 60%;
-    padding: 30px;
+    padding: 50px;
     border-radius: 25px;
     background-color: white;
 }
 
 .questionTitle {
     margin: 0;
+    color: gray;
+    font-family: "Microsoft JhengHei UI", sans-serif;
+    font-size: 1.5em;
 }
 
 .radioLeft {
     text-align: left;
+    font-size: 1.5em;
 }
