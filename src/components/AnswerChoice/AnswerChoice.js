@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './AnswerChoice.css';
 
-export const AnswerChoice = ({ text, i, questionNumber, selectedAnswer, onSelected, onDeselected }) => {
+export const AnswerChoice = ({ text, isSelectedAnswer, onSelected, onDeselected }) => {
 
-    const [ status, setStatus ] = useState(i === selectedAnswer ? 'selected' : 'default');
+    const [ status, setStatus ] = useState(isSelectedAnswer ? 'selected' : 'default');
     const [ deselected, setDeselected ] = useState(false);
 
-    useEffect(() => setStatus(i === selectedAnswer ? 'selected' : 'default'),
-        [questionNumber, selectedAnswer]);
+    useEffect(() => setStatus(isSelectedAnswer ? 'selected' : 'default'), [isSelectedAnswer]);
 
     useEffect(() => {
         if (deselected) {
@@ -39,9 +38,9 @@ export const AnswerChoice = ({ text, i, questionNumber, selectedAnswer, onSelect
 
     return (
         <div className='AnswerChoice'
-             onMouseEnter={status === 'selected' ? null : setStatusToHover}
-             onMouseLeave={status === 'selected' ? null :setStatusToDefault}
-             onClick={status === 'selected' ? deselect : select}
+             onMouseEnter={isSelectedAnswer ? null : setStatusToHover}
+             onMouseLeave={isSelectedAnswer ? null :setStatusToDefault}
+             onClick={isSelectedAnswer ? deselect : select}
         >
             <div className={status}>
                 {text}
