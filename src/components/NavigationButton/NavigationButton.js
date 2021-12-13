@@ -1,9 +1,11 @@
 import './NavigationButton.css';
 
-export const NavigationButton = ({ text }) => {
+export const NavigationButton = ({ text, status }) => {
     return (
         <div className='NavigationButton'>
-            {text}
+            <div className={'button-' + status}>
+                {text}
+            </div>
         </div>
     );
 };

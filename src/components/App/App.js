@@ -1,7 +1,8 @@
 import './App.css';
 import { Question } from '../Question/Question';
 import { NavigationBar } from '../NavigationBar/NavigationBar';
-import {ProgressBar} from "../ProgressBar/ProgressBar";
+import { ProgressBar } from '../ProgressBar/ProgressBar';
+import { Footer } from '../Footer/Footer';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
             <Question />
             <NavigationBar />
         </div>
+        <Footer />
     </div>
   );
 }

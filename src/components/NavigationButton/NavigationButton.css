@@ -4,4 +4,17 @@
     vertical-align: middle;
     line-height: 50px;
     background-color: #e3e3e3;
+    user-select: none;
+}
+
+.button-selected {
+    background-color: cornflowerblue;
+}
+
+.button-hover {
+    background-color: lightgrey;
+}
+
+.button-default {
+    background-color: #e3e3e3;
 }

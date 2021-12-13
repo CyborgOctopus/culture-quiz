@@ -8,12 +8,8 @@
 
 .questionTitle {
     margin: 0;
+    padding-bottom: 20px;
     color: gray;
     font-family: "Microsoft JhengHei UI", sans-serif;
-    font-size: 1.5em;
-}
-
-.radioLeft {
-    text-align: left;
     font-size: 1.5em;
 }

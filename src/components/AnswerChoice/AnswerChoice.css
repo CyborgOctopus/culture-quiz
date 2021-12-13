@@ -1,0 +1,21 @@
+.AnswerChoice {
+    font-size: 1.5em;
+}
+
+.selected {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, skyblue 0.5%, #b8ebff 0.5%);
+}
+
+.hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #e3f7ff;
+}
+
+.default {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+}
