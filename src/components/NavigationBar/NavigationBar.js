@@ -1,11 +1,11 @@
 import './NavigationBar.css';
 import { NavigationButton } from '../NavigationButton/NavigationButton';
 
-export const NavigationBar = () => {
+export const NavigationBar = ({ onPrevButtonPress, onNextButtonPress }) => {
     return (
         <div className='NavigationBar'>
-            <NavigationButton text={'< Prev'} status={'hover'} />
-            <NavigationButton text={'Next >'} status={'default'} />
+            <NavigationButton text={'< Prev'} onButtonPress={onPrevButtonPress} />
+            <NavigationButton text={'Next >'} onButtonPress={onNextButtonPress} />
         </div>
     );
 };

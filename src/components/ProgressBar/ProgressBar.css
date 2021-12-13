@@ -1,3 +1,7 @@
+:root {
+    --progress-bar-level: 0%;
+}
+
 .ProgressBar {
     display: flex;
     gap: 10px;
@@ -9,5 +13,5 @@
     height: 20px;
     width: 500px;
     border-radius: 5px;
-    background: linear-gradient(90deg, #00ccff 7%, white 7%);
+    background: linear-gradient(90deg, #00ccff var(--progress-bar-level), white var(--progress-bar-level));
 }
